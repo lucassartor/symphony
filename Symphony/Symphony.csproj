@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E703F894-DDEB-4ADD-A72F-2955E24A35DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Symphony</RootNamespace>
+    <AssemblyName>Symphony</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Npgsql, Version=3.2.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.3.2.7\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ctrlAdicionarMusica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlAdicionarMusica.Designer.cs">
+      <DependentUpon>ctrlAdicionarMusica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlHome.Designer.cs">
+      <DependentUpon>ctrlHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlPerfil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlPerfil.Designer.cs">
+      <DependentUpon>ctrlPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlPlaylist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlPlaylist.Designer.cs">
+      <DependentUpon>ctrlPlaylist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrlUsuarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlUsuarios.Designer.cs">
+      <DependentUpon>ctrlUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApp.Designer.cs">
+      <DependentUpon>frmApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastrarMusica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastrarMusica.Designer.cs">
+      <DependentUpon>frmCadastrarMusica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConexaoBanco.cs" />
+    <Compile Include="frmCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.Designer.cs">
+      <DependentUpon>frmCadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMusica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMusica.Designer.cs">
+      <DependentUpon>frmMusica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastro.Designer.cs">
+      <DependentUpon>frmCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuario.Designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Identificacao.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ctrlMusicas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlMusicas.Designer.cs">
+      <DependentUpon>ctrlMusicas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ctrlAdicionarMusica.resx">
+      <DependentUpon>ctrlAdicionarMusica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlHome.resx">
+      <DependentUpon>ctrlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlPerfil.resx">
+      <DependentUpon>ctrlPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlPlaylist.resx">
+      <DependentUpon>ctrlPlaylist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlUsuarios.resx">
+      <DependentUpon>ctrlUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApp.resx">
+      <DependentUpon>frmApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastrarMusica.resx">
+      <DependentUpon>frmCadastrarMusica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastro.resx">
+      <DependentUpon>frmCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroUsuario.resx">
+      <DependentUpon>frmCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMusica.resx">
+      <DependentUpon>frmMusica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ctrlMusicas.resx">
+      <DependentUpon>ctrlMusicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoMenor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoMenor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoPintada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoMenor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\118326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoMenor3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

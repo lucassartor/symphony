@@ -1,0 +1,118 @@
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\Symphony.exe.config
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\Symphony.exe
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\Symphony.pdb
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.csprojResolveAssemblyReference.cache
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.Properties.Resources.resources
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.csproj.GenerateResource.Cache
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.csproj.CoreCompileInputs.cache
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.exe
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.pdb
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmLogin.resources
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\Npgsql.dll
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\Npgsql.xml
+C:\Users\ra1757043\Desktop\Symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmCadastro.resources
+C:\Users\ra1757043\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmSymphony.resources
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\Symphony.exe.config
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\Symphony.exe
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\Symphony.pdb
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\Npgsql.dll
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\Npgsql.xml
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.csprojResolveAssemblyReference.cache
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.frmCadastro.resources
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.frmLogin.resources
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.frmSymphony.resources
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.Properties.Resources.resources
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.csproj.GenerateResource.Cache
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.csproj.CoreCompileInputs.cache
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.exe
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.pdb
+C:\Users\ra1757043\Desktop\Symphony (2)\Symphony\Symphony\obj\Debug\Symphony.frmCadastrarMusica.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\Symphony.exe.config
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\Symphony.exe
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\Symphony.pdb
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\Npgsql.dll
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\Npgsql.xml
+C:\Users\Usuario\Desktop\Symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmCadastrarMusica.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmCadastro.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmLogin.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmSymphony.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.exe
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.pdb
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.ctrlHome.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.frmApp.resources
+C:\Users\Usuario\Desktop\Symphony\Symphony\obj\Debug\Symphony.ctrlAdicionarMusica.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\Symphony.exe.config
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\Symphony.exe
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\Symphony.pdb
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\Npgsql.dll
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\Npgsql.xml
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.ctrlAdicionarMusica.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.ctrlHome.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmApp.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmCadastrarMusica.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmCadastro.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmLogin.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.Properties.Resources.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.csproj.CopyComplete
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.exe
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.pdb
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.ctrlPerfil.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.ctrlMusicas.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmCadastroUsuario.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmMusica.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.ctrlUsuarios.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.csproj.ResolveComReference.cache
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.frmUsuario.resources
+C:\Users\Usuario\Desktop\SymphonyLucas17;11\Symphony\obj\Debug\Symphony.ctrlPlaylist.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\Symphony.exe.config
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\Symphony.exe
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\Symphony.pdb
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\Npgsql.dll
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\Npgsql.xml
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csprojAssemblyReference.cache
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csproj.ResolveComReference.cache
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.ctrlAdicionarMusica.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.ctrlHome.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.ctrlPerfil.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.ctrlPlaylist.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.ctrlUsuarios.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmApp.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmCadastrarMusica.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmCadastro.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmCadastroUsuario.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmLogin.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmMusica.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.frmUsuario.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.Properties.Resources.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.ctrlMusicas.resources
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csproj.GenerateResource.cache
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csproj.CopyComplete
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.exe
+C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.pdb

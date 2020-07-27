@@ -1,0 +1,93 @@
+DROP TABLE IF EXISTS generos;
+DROP TABLE IF EXISTS usuarios;
+DROP TABLE IF EXISTS musicas;
+DROP TABLE IF EXISTS votos;
+
+create sequence id_musica_seq
+    INCREMENT 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    START 1
+    CACHE 1;
+
+create sequence id_usuario_seq
+    INCREMENT 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    START 1
+    CACHE 1;
+
+create sequence id_voto_seq
+    INCREMENT 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    START 1
+    CACHE 1;
+
+create sequence id_genero_seq
+    INCREMENT 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    START 1
+    CACHE 1;
+
+
+-- GENEROS MUSICAIS
+create table generos
+(
+	id_genero bigint default nextval('id_genero_seq') not null,
+	genero varchar(20),
+	CONSTRAINT id_genero_pk primary key (id_genero)
+);
+
+create table usuarios
+(
+	id_usuario bigint default nextval('id_usuario_seq') not null,
+	login varchar(30) not null,
+	nome varchar(80),
+    	sexo varchar(30),
+	senha varchar(30),
+    	idade int,
+    	id_genero bigint not null,
+	id_voto bigint,
+  	CONSTRAINT id_usuario_pk primary key (id_usuario),
+	CONSTRAINT id_genero_fk foreign key (id_genero)
+     	references generos (id_genero)
+);
+
+
+create table musicas
+(
+	id_musica bigint default nextval('id_musica_seq') not null,
+	nome varchar(80) not null,
+    	genero varchar(30),
+	album varchar(30),
+    	data_lançamento date,
+    	qntd_likes bigint,
+	qntd_dislikes bigint,
+    	id_usuario bigint not null,
+	imagem text,
+  	CONSTRAINT id_musica_pk primary key (id_musica),
+  	CONSTRAINT id_usuario_fk foreign key (id_usuario)
+     	references usuarios (id_usuario)
+);
+
+
+
+create table votos
+(
+	id_voto bigint default nextval('id_voto_seq') not null,
+    	id_usuario bigint not null,
+	id_musica bigint not null,
+	voto bool, /*0 = dislike 1 = like */ 
+  	CONSTRAINT id_voto_pk primary key (id_voto),
+  	CONSTRAINT id_usuario_fk foreign key (id_usuario)
+     	references usuarios (id_usuario),
+	CONSTRAINT id_musica_fk foreign key (id_musica)
+     	references musicas (id_musica)
+	
+);
+
+
+
+
