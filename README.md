@@ -24,7 +24,8 @@
  <h3>Músicas</h3>
     <figure><img src="Symphony/Resources/prints/musicasSalvas.PNG" alt=""><figcaption><b>Lista de todas músicas que o usuário deu like</b></figcaption></figure>
  <h3>Cadastro de Música</h3>
-    <figure><img src="Symphony/Resources/prints/frmMusica.PNG" alt=""><figcaption><b>Cadastro de música</b></figcaption></figure> 
+    <figure><img src="Symphony/Resources/prints/frmMusica.PNG" alt=""><figcaption><b>Cadastro de música</b></figcaption></figure>
+    <figure><img src="Symphony/Resources/prints/frmMusicaCheio.PNG" alt=""><figcaption><b>Cadastro de música preenchido</b></figcaption></figure>  
  <h3>Usuários</h3>
     <figure><img src="Symphony/Resources/prints/listUsuarios.PNG" alt=""><figcaption><b>Lista de todos os usuários cadastrados</b></figcaption></figure>
  <h3>Usuário Específico</h3>  
