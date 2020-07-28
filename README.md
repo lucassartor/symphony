@@ -33,4 +33,7 @@
     <figure><img src="Symphony/Resources/prints/usuarioEspecifico.PNG" alt=""><figcaption><b>Perfil de outro usuário</b></figcaption></figure>
  <h3>Perfil</h3>
     <figure><img src="Symphony/Resources/prints/Perfil.PNG" alt=""><figcaption><b>Perfil do usuário que está logado</b></figcaption></figure>   
- 
+
+## Desenvolvedores
+<a href="https://github.com/lucassartor">Lucas Sartor Chauvin</a> <br>    
+<a href="https://github.com/daniel-maeda">Daniel Feres Maeda</a>
