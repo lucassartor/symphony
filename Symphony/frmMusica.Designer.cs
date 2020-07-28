@@ -41,19 +41,19 @@
             this.lblDislike = new System.Windows.Forms.Label();
             this.sfoVideo = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.picMusica = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.picDislike = new System.Windows.Forms.PictureBox();
+            this.lblArtista = new System.Windows.Forms.Label();
             this.picLike = new System.Windows.Forms.PictureBox();
             this.btnDislike = new System.Windows.Forms.Button();
             this.btnLike = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblArtista = new System.Windows.Forms.Label();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.picMusica = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.sfoVideo)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMusica)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDislike)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLike)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMusica)).BeginInit();
             this.SuspendLayout();
             // 
             // lblLike
@@ -184,22 +184,102 @@
             this.sfoVideo.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("sfoVideo.OcxState")));
             this.sfoVideo.Size = new System.Drawing.Size(412, 277);
             this.sfoVideo.TabIndex = 41;
+            this.sfoVideo.Enter += new System.EventHandler(this.sfoVideo_Enter);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel2.Controls.Add(this.btnDislike);
+            this.panel2.Controls.Add(this.btnLike);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.picDislike);
             this.panel2.Controls.Add(this.lblArtista);
             this.panel2.Controls.Add(this.picLike);
-            this.panel2.Controls.Add(this.btnDislike);
-            this.panel2.Controls.Add(this.btnLike);
             this.panel2.Controls.Add(this.lblAlbum);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(5, 5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1032, 395);
             this.panel2.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(247, 81);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 17);
+            this.label4.TabIndex = 44;
+            this.label4.Text = "Artista";
+            // 
+            // picDislike
+            // 
+            this.picDislike.Image = ((System.Drawing.Image)(resources.GetObject("picDislike.Image")));
+            this.picDislike.Location = new System.Drawing.Point(826, 342);
+            this.picDislike.Name = "picDislike";
+            this.picDislike.Size = new System.Drawing.Size(30, 30);
+            this.picDislike.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picDislike.TabIndex = 29;
+            this.picDislike.TabStop = false;
+            this.picDislike.Click += new System.EventHandler(this.picDislike_Click);
+            // 
+            // lblArtista
+            // 
+            this.lblArtista.AutoSize = true;
+            this.lblArtista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.lblArtista.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblArtista.ForeColor = System.Drawing.Color.White;
+            this.lblArtista.Location = new System.Drawing.Point(250, 98);
+            this.lblArtista.Name = "lblArtista";
+            this.lblArtista.Size = new System.Drawing.Size(82, 25);
+            this.lblArtista.TabIndex = 43;
+            this.lblArtista.Text = "Quavo";
+            // 
+            // picLike
+            // 
+            this.picLike.Image = ((System.Drawing.Image)(resources.GetObject("picLike.Image")));
+            this.picLike.Location = new System.Drawing.Point(718, 341);
+            this.picLike.Name = "picLike";
+            this.picLike.Size = new System.Drawing.Size(30, 30);
+            this.picLike.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLike.TabIndex = 0;
+            this.picLike.TabStop = false;
+            this.picLike.Click += new System.EventHandler(this.picLike_Click);
+            // 
+            // btnDislike
+            // 
+            this.btnDislike.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.btnDislike.FlatAppearance.BorderSize = 0;
+            this.btnDislike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDislike.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDislike.ForeColor = System.Drawing.Color.White;
+            this.btnDislike.Image = ((System.Drawing.Image)(resources.GetObject("btnDislike.Image")));
+            this.btnDislike.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDislike.Location = new System.Drawing.Point(826, 342);
+            this.btnDislike.Name = "btnDislike";
+            this.btnDislike.Size = new System.Drawing.Size(41, 34);
+            this.btnDislike.TabIndex = 29;
+            this.btnDislike.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDislike.UseVisualStyleBackColor = false;
+            // 
+            // btnLike
+            // 
+            this.btnLike.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.btnLike.FlatAppearance.BorderSize = 0;
+            this.btnLike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLike.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLike.ForeColor = System.Drawing.Color.White;
+            this.btnLike.Image = ((System.Drawing.Image)(resources.GetObject("btnLike.Image")));
+            this.btnLike.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLike.Location = new System.Drawing.Point(718, 338);
+            this.btnLike.Name = "btnLike";
+            this.btnLike.Size = new System.Drawing.Size(41, 34);
+            this.btnLike.TabIndex = 28;
+            this.btnLike.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLike.UseVisualStyleBackColor = false;
+            this.btnLike.Click += new System.EventHandler(this.btnLike_Click);
             // 
             // btnFechar
             // 
@@ -227,86 +307,6 @@
             this.picMusica.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picMusica.TabIndex = 10;
             this.picMusica.TabStop = false;
-            // 
-            // picDislike
-            // 
-            this.picDislike.Image = ((System.Drawing.Image)(resources.GetObject("picDislike.Image")));
-            this.picDislike.Location = new System.Drawing.Point(826, 342);
-            this.picDislike.Name = "picDislike";
-            this.picDislike.Size = new System.Drawing.Size(30, 30);
-            this.picDislike.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picDislike.TabIndex = 29;
-            this.picDislike.TabStop = false;
-            this.picDislike.Click += new System.EventHandler(this.picDislike_Click);
-            // 
-            // picLike
-            // 
-            this.picLike.Image = ((System.Drawing.Image)(resources.GetObject("picLike.Image")));
-            this.picLike.Location = new System.Drawing.Point(718, 341);
-            this.picLike.Name = "picLike";
-            this.picLike.Size = new System.Drawing.Size(30, 30);
-            this.picLike.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLike.TabIndex = 0;
-            this.picLike.TabStop = false;
-            this.picLike.Click += new System.EventHandler(this.picLike_Click);
-            // 
-            // btnDislike
-            // 
-            this.btnDislike.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.btnDislike.FlatAppearance.BorderSize = 0;
-            this.btnDislike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDislike.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDislike.ForeColor = System.Drawing.Color.White;
-            this.btnDislike.Image = ((System.Drawing.Image)(resources.GetObject("btnDislike.Image")));
-            this.btnDislike.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDislike.Location = new System.Drawing.Point(523, 338);
-            this.btnDislike.Name = "btnDislike";
-            this.btnDislike.Size = new System.Drawing.Size(41, 34);
-            this.btnDislike.TabIndex = 29;
-            this.btnDislike.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDislike.UseVisualStyleBackColor = false;
-            // 
-            // btnLike
-            // 
-            this.btnLike.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.btnLike.FlatAppearance.BorderSize = 0;
-            this.btnLike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLike.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLike.ForeColor = System.Drawing.Color.White;
-            this.btnLike.Image = ((System.Drawing.Image)(resources.GetObject("btnLike.Image")));
-            this.btnLike.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLike.Location = new System.Drawing.Point(523, 310);
-            this.btnLike.Name = "btnLike";
-            this.btnLike.Size = new System.Drawing.Size(41, 34);
-            this.btnLike.TabIndex = 28;
-            this.btnLike.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLike.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(247, 81);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 17);
-            this.label4.TabIndex = 44;
-            this.label4.Text = "Artista";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // lblArtista
-            // 
-            this.lblArtista.AutoSize = true;
-            this.lblArtista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.lblArtista.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblArtista.ForeColor = System.Drawing.Color.White;
-            this.lblArtista.Location = new System.Drawing.Point(250, 98);
-            this.lblArtista.Name = "lblArtista";
-            this.lblArtista.Size = new System.Drawing.Size(82, 25);
-            this.lblArtista.TabIndex = 43;
-            this.lblArtista.Text = "Quavo";
-            this.lblArtista.Click += new System.EventHandler(this.label6_Click);
             // 
             // frmMusica
             // 
@@ -337,9 +337,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.sfoVideo)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picMusica)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDislike)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLike)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMusica)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

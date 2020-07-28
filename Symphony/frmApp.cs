@@ -122,5 +122,7 @@ namespace Symphony
             this.ctrlUsuarios1.Show();
             this.ctrlPlaylist1.Hide();
         }
+
+     
     }
 }

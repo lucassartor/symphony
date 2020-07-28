@@ -25,7 +25,7 @@ namespace Symphony
                 + "Port = 5432;"
                 + "Database = Symphony;"
                 + "User ID = postgres;"
-                + "Password = sqladmin;";
+                + "Password = Dooneyx15;";
 
         static NpgsqlConnection cn = new NpgsqlConnection();
 

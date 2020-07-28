@@ -116,3 +116,35 @@ C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csp
 C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.csproj.CopyComplete
 C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.exe
 C:\Users\Lucas Sartor\Desktop\SymphonyQUASEFINAL\Symphony\obj\Debug\Symphony.pdb
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\Symphony.exe.config
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\Symphony.exe
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\Symphony.pdb
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\Npgsql.dll
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\Npgsql.xml
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\xampp\htdocs\symphony\symphony\Symphony\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.csprojAssemblyReference.cache
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.csproj.ResolveComReference.cache
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.ctrlAdicionarMusica.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.ctrlHome.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.ctrlPerfil.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.ctrlPlaylist.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.ctrlUsuarios.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmApp.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmCadastrarMusica.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmCadastro.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmCadastroUsuario.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmLogin.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmMusica.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.frmUsuario.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.Properties.Resources.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.ctrlMusicas.resources
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.csproj.GenerateResource.cache
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.csproj.CopyComplete
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.exe
+C:\xampp\htdocs\symphony\symphony\Symphony\obj\Debug\Symphony.pdb

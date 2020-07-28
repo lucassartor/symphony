@@ -121,6 +121,7 @@
             this.Controls.Add(this.dgvMusicas);
             this.Name = "ctrlPlaylist";
             this.Size = new System.Drawing.Size(854, 460);
+            
             this.VisibleChanged += new System.EventHandler(this.ctrlMusicas_VisibleChanged);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMusicas)).EndInit();
             this.ResumeLayout(false);

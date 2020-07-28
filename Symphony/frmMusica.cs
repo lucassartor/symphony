@@ -61,12 +61,12 @@ namespace Symphony
             this.Close();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void btnLike_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void sfoVideo_Enter(object sender, EventArgs e)
         {
 
         }
@@ -74,11 +74,11 @@ namespace Symphony
         private void picLike_Click(object sender, EventArgs e)
         {
             if (like)
-                picLike.ImageLocation = "C:\\Users\\Usuario\\Desktop\\SymphonyLucas17;11\\likebranco.png";
+                picLike.ImageLocation = "C:\\xampp\\htdocs\\symphony\\symphonylikebranco.png";
             else
-                picLike.ImageLocation = "C:\\Users\\Usuario\\Desktop\\SymphonyLucas17;11\\likeverde.png";
+                picLike.ImageLocation = "C:\\xampp\\htdocs\\symphony\\likeverde.png";
 
-            picDislike.ImageLocation = "C:\\Users\\Usuario\\Desktop\\SymphonyLucas17;11\\dislikebranco.png";
+            picDislike.ImageLocation = "C:\\xampp\\htdocs\\symphony\\dislikebranco.png";
             like = !like;
             dislike = false;
 
@@ -87,10 +87,10 @@ namespace Symphony
         private void picDislike_Click(object sender, EventArgs e)
         {
             if (dislike)
-                picDislike.ImageLocation = "C:\\Users\\Usuario\\Desktop\\SymphonyLucas17;11\\dislikebranco.png";
+                picDislike.ImageLocation = "C:\\xampp\\htdocs\\symphony\\dislikebranco.png";
             else
-                picDislike.ImageLocation = "C:\\Users\\Usuario\\Desktop\\SymphonyLucas17;11\\dislikevermelho.png";
-            picLike.ImageLocation = "C:\\Users\\Usuario\\Desktop\\SymphonyLucas17;11\\likebranco.png";
+                picDislike.ImageLocation = "C:\\xampp\\htdocs\\symphony\\dislikevermelho.png";
+            picLike.ImageLocation = "C:\\xampp\\htdocs\\symphony\\likebranco.png";
 
             dislike = !dislike;
             like = false;

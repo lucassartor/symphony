@@ -283,6 +283,7 @@
             this.ctrlPlaylist1.Name = "ctrlPlaylist1";
             this.ctrlPlaylist1.Size = new System.Drawing.Size(817, 423);
             this.ctrlPlaylist1.TabIndex = 22;
+          
             // 
             // ctrlUsuarios1
             // 

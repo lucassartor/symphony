@@ -114,11 +114,13 @@ namespace Symphony
                 if (!String.IsNullOrWhiteSpace(txtPesquisa.Text))
                 {
                     string pesquisa = txtPesquisa.Text;
-                    string sql = "select id_musica as ID, nome as Nome, nome_artista as Artista, album as Albúm, genero as Gênero, ano_lançamento as Ano from public.musicas where nome like '%" + pesquisa + "%' or album like '%" + pesquisa + "%' or nome_artista like '%" + pesquisa + "%' ";
+                    string sql = "select id_musica as ID, nome as Nome, nome_artista as Artista, album as Albúm, genero as Gênero, data_lançamento as Ano from public.musicas where nome like '%" + pesquisa + "%' or album like '%" + pesquisa + "%' or nome_artista like '%" + pesquisa + "%' ";
                     dgvMusicas.DataSource = ConexaoBanco.SelecionarDataSet(sql).Tables[0];
                 }
             }
         }
+
+      
     }
 
 
